@@ -1,0 +1,97 @@
+{
+  "name": "devcorp_sirh_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.15.2",
+    "cropperjs": "^1.5.12",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "moment-business-days": "^1.2.0",
+    "npm-watch": "^0.9.0",
+    "popper": "^1.0.1",
+    "v-calendar": "^2.3.2",
+    "vue": "^2.6.14",
+    "vue-cli": "^2.9.6",
+    "vue-click-outside": "^1.1.0",
+    "vue-doc-preview": "^0.3.2",
+    "vue-html2pdf": "^1.8.0",
+    "vue-pdf": "^4.3.0",
+    "vue-pdf-app": "^2.1.0",
+    "vue-router": "^3.5.2",
+    "vue-the-mask": "^0.11.1",
+    "vue-upload-component": "^2.8.22",
+    "vuetify": "^2.5.7",
+    "vuex": "^3.4.0",
+    "vuex-persist": "^3.1.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.1",
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-plugin-eslint": "^4.5.13",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-plugin-unit-jest": "^4.5.13",
+    "@vue/cli-plugin-vuex": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/test-utils": "^1.2.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "prettier": "^2.3.2",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-vuetify": "^2.4.1",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {},
+    "overrides": [
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)",
+          "**/tests/unit/**/*.spec.{j,t}s?(x)"
+        ],
+        "env": {
+          "jest": true
+        }
+      }
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "jest": {
+    "preset": "@vue/cli-plugin-unit-jest"
+  }
+}
